@@ -1,0 +1,114 @@
+smiles,measured log solubility in mols per litre
+OCC3OC(OCC2OC(OC(C#N)c1ccccc1)C(O)C(O)C2O)C(O)C(O)C3O ,-0.77
+CC(C)=CCCC(C)=CC(=O),-2.06
+COc5cc4OCC3Oc2c1CC(Oc1ccc2C(=O)C3c4cc5OC)C(C)=C ,-4.42
+CCCCC1(CC)C(=O)NC(=O)NC1=O,-1.661
+CCCCCCCC(=O)OC,-3.17
+CCC1(C(=O)NC(=O)NC1=O)C2=CCCCC2 ,-2.17
+c1ccc2c(c1)ccc3c4ccccc4ccc23,-8.057
+CC(C)CCC(C)(C)C,-5.05
+CC(C)C(C(=O)OC(C#N)c1cccc(Oc2ccccc2)c1)c3ccc(OC(F)F)cc3,-6.876
+CCC(=C(CC)c1ccc(O)cc1)c2ccc(O)cc2 ,-4.07
+Cc1c[nH]c(=O)[nH]c1=O ,-1.506
+OCC1OC(C(O)C1O)n2cnc3c(O)ncnc23,-1.23
+Clc1ccccc1c2ccccc2,-4.54
+Oc2ncc1nccnc1n2,-1.947
+Fc1c[nH]c(=O)[nH]c1=O ,-1.077
+Oc1cccc(O)c1,0.81
+Oc2ccc1CCCCc1c2 ,-1.99
+CC(C)=CCC/C(C)=C\CO,-2.46
+CCCC(C)(COC(N)=O)COC(N)=O ,-1.807
+CC1CC(C)C(=O)C(C1)C(O)CC2CC(=O)NC(=O)C2 ,-1.13
+ClCC#N,-0.09199999999999964
+Clc1cc(Cl)c(Cl)c(Cl)c1,-4.63
+CCCCCCCCC(=O)OCC,-3.8
+Cc1ccccc1Cl,-3.52
+CC(=C)C=C,-2.03
+O=C1CCCCC1,-0.6000000000000001
+CNc2cnn(c1cccc(c1)C(F)(F)F)c(=O)c2Cl,-4.046
+CCN2c1ncccc1N(C)C(=O)c3cccnc23 ,-2.62
+CC(C)C(O)C(C)C,-1.22
+Cc1c2ccccc2c(C)c3ccc4ccccc4c13,-7.02
+CN(C)C(=O)Nc1ccc(Cl)cc1,-2.89
+COc1c(O)c(Cl)c(Cl)c(Cl)c1Cl ,-4.02
+Clc1cc(c(Cl)c(Cl)c1Cl)c2cc(Cl)c(Cl)c(Cl)c2Cl,-9.16
+O=N(=O)c1cc(Cl)c(Cl)cc1,-3.2
+CC2Cc1ccccc1N2NC(=O)c3ccc(Cl)c(c3)S(N)(=O)=O ,-3.5860000000000003
+CN(C)C(=O)Nc1ccc(c(Cl)c1)n2nc(oc2=O)C(C)(C)C,-4.328
+CCCC(O)CC,-0.8000000000000007
+CCCCCCCC(C)O,-2.74
+CC(=O)Nc1nnc(s1)S(N)(=O)=O ,-2.36
+CCN(CC)c1nc(Cl)nc(n1)N(CC)CC,-4.4110000000000005
+ClC(Cl)C(Cl)(Cl)SN2C(=O)C1CC=CCC1C2=O ,-5.4
+c1(O)c(C)ccc(C(C)C)c1,-2.08
+ClCCBr,-1.32
+Clc1ccccc1,-2.38
+Brc1ccc(I)cc1,-4.56
+NC(=O)NC1NC(=O)NC1=O ,-1.6
+CCOC(=O)c1cncn1C(C)c2ccccc2,-4.735
+Clc1ccccc1I,-3.54
+CCCC(C)C,-3.74
+O=c2c(C3CCCc4ccccc43)c(O)c1ccccc1o2 ,-2.84
+OC(c1ccc(Cl)cc1)(c2ccc(Cl)cc2)C(Cl)(Cl)Cl,-5.666
+C1Cc2cccc3cccc1c23,-4.63
+CCOC=C,-0.8500000000000001
+ClCC(Cl)(Cl)Cl,-2.18
+NC(=N)NS(=O)(=O)c1ccc(N)cc1 ,-1.99
+OC(C(=O)c1ccccc1)c2ccccc2,-2.85
+ClC(=C(Cl)C(=C(Cl)Cl)Cl)Cl,-4.92
+CC23Cc1cnoc1C=C2CCC4C3CCC5(C)C4CCC5(O)C#C,-5.5070000000000014
+CCCCI,-2.96
+c1ccccc1C(O)C(O)c2ccccc2,-1.93
+CCCCCCCC(=O)OCC,-3.39
+CCSSCC,-2.42
+c1ccc(cc1)c2ccc(cc2)c3ccccc3,-7.110000000000001
+Clc2c(Cl)c(Cl)c(c1ccccc1)c(Cl)c2Cl ,-7.92
+c1c(NC(=O)c2ccccc2(I))cccc1,-4.21
+CC1(C)C(C=C(Cl)Cl)C1C(=O)OCc2cccc(Oc3ccccc3)c2,-6.291
+CC2=CC(=O)c1ccccc1C2=O ,-3.03
+CC1CO1,-0.5899999999999999
+CCBr,-1.09
+CCCCOCCO,-0.41999999999999993
+COc1ccccc1O ,-1.96
+CCNc1nc(Cl)nc(NCC)n1 ,-4.55
+O=C1NC(=O)NC(=O)C1(CC)CC=C,-1.614
+c1ccoc1,-0.8199999999999998
+CC(C)(C)c1ccccc1,-3.66
+CC(=O)OCC(=O)C3(O)CCC4C2CCC1=CC(=O)C=CC1(C)C2C(O)CC34C ,-4.37
+ClC=C,-1.75
+Clc1ccc(Cl)c(c1)c2cccc(Cl)c2Cl ,-6.47
+CC(OC(=O)Nc1cccc(Cl)c1)C#C,-2.617
+CN2C(=O)CN=C(c1ccccc1)c3cc(Cl)ccc23,-3.754
+CCOP(=S)(OCC)Oc1ccc(cc1)S(C)=O ,-2.3
+CC1(C)C2CCC1(C)C(O)C2,-2.32
+NC(=O)N,0.9599999999999995
+CCN2c1ncccc1N(C)C(=S)c3cccnc23 ,-4.634
+CCCSCCC,-2.58
+CCCCCC1CCCC1,-6.08
+CCC(C)O,0.4700000000000002
+c1ccc2c(c1)c3ccccc3c4ccccc24,-6.726
+c1ccc(cc1)c2ccccc2,-4.345
+CC(=O)Nc1ccc(cc1)N(=O)=O,-2.692
+CC(=O)Nc1ccc(O)cc1,-1.0299999999999998
+CC34CCC1C(CCC2CC(=O)CCC12C)C3CCC4O ,-4.743
+Nc1nc(=O)[nH]cc1F,-0.972
+c2ccc1NCCc1c2 ,-1.04
+Cc1cccc(C)c1NC(=O)c2cc(c(Cl)cc2O)S(N)(=O)=O,-3.79
+CCN2c1nc(Cl)ccc1N(C)C(=O)c3cccnc23 ,-4.114
+Cc1cncc(C)c1,0.3799999999999999
+CCCC=C(CC)C=O,-2.46
+CCCCCCCCCCCCCCCO,-6.35
+CCCCCCCCBr,-5.06
+C1CCC2CCCCC2C1,-5.19
+Oc1c(Cl)cccc1Cl,-1.79
+Brc1ccccc1Br,-3.5
+C2c1ccccc1N(CCF)C(=O)c3ccccc23 ,-4.799
+Cc1ccc(O)cc1C,-1.38
+Cc1cccc2c1ccc3ccccc32,-5.85
+CCCC,-2.57
+FC(F)(Cl)C(F)(F)Cl,-2.74
+CN(C)C(=O)N(C)C ,0.94
+CNC(=O)ON=C(CSC)C(C)(C)C ,-1.62
+CNC(=O)ON=C(SC)C(=O)N(C)C,0.10599999999999987
+CCC(C)C,-3.18
+COP(=O)(OC)OC(=CCl)c1cc(Cl)c(Cl)cc1Cl,-4.522
