@@ -103,15 +103,8 @@ def run_training(args: TrainArgs, logger: Logger = None) -> List[float]:
     debug(f'Total size = {len(data):,} | '
           f'train size = {len(train_data):,} | val size = {len(val_data):,} | test size = {len(test_data):,}')
 
-    # Initialize scaler and scale training targets by subtracting mean and dividing standard deviation (regression only)
-    if args.dataset_type == 'regression':
-        debug('Fitting scaler')
-        train_smiles, train_targets = train_data.smiles(), train_data.targets()
-        scaler = StandardScaler().fit(train_targets)
-        scaled_targets = scaler.transform(train_targets).tolist()
-        train_data.set_targets(scaled_targets)
-    else:
-        scaler = None
+
+    scaler = None
 
     # Get loss and metric functions
     loss_func = get_loss_func(args)
@@ -377,15 +370,7 @@ def get_xgboost_feature(args, logger,model):
     debug(f'Total size = {len(data):,} | '
           f'train size = {len(train_data):,} | val size = {len(val_data):,} | test size = {len(test_data):,}')
 
-    # Initialize scaler and scale training targets by subtracting mean and dividing standard deviation (regression only)
-    if args.dataset_type == 'regression':
-        debug('Fitting scaler')
-        train_smiles, train_targets = train_data.smiles(), train_data.targets()
-        scaler = StandardScaler().fit(train_targets)
-        scaled_targets = scaler.transform(train_targets).tolist()
-        train_data.set_targets(scaled_targets)
-    else:
-        scaler = None
+    scaler = None
 
     # Automatically determine whether to cache
     if len(data) <= args.cache_cutoff:
@@ -433,15 +418,8 @@ def get_xgboost_feature(args, logger,model):
         scaler=scaler
     )
     train_smiles, train_targets = train_data.smiles(), train_data.targets()
-    if args.dataset_type == 'regression':
-        debug('Fitting scaler')
-        val_smiles, val_targets = val_data.smiles(), val_data.targets()
-        val_targets = scaler.transform(val_targets).tolist()
-        val_data.set_targets(val_targets)
-    else:
-        val_smiles, val_targets = val_data.smiles(), val_data.targets()
+    val_smiles, val_targets = val_data.smiles(), val_data.targets()
     test_smiles, test_targets = test_data.smiles(), test_data.targets()
-
 
     return train_targets, train_feature,val_targets, val_feature,test_targets, test_feature,train_smiles,val_smiles,test_smiles,test_preds
 
@@ -523,15 +501,7 @@ def predict_feature(args,logger,model,external_test_path):
     debug(f'Total size = {len(data):,} | '
           f'train size = {len(train_data):,} | val size = {len(val_data):,} | test size = {len(test_data):,}')
 
-    # Initialize scaler and scale training targets by subtracting mean and dividing standard deviation (regression only)
-    if args.dataset_type == 'regression':
-        debug('Fitting scaler')
-        train_smiles, train_targets = train_data.smiles(), train_data.targets()
-        scaler = StandardScaler().fit(train_targets)
-        scaled_targets = scaler.transform(train_targets).tolist()
-        train_data.set_targets(scaled_targets)
-    else:
-        scaler = None
+    scaler = None
 
     # Automatically determine whether to cache
     if len(data) <= args.cache_cutoff:

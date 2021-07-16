@@ -37,10 +37,6 @@ def predict(model: nn.Module,
 
         batch_preds = batch_preds.data.cpu().numpy()
         feature = feature.data.cpu().numpy()
-        # Inverse scale if regression
-        if scaler is not None:
-            batch_preds = scaler.inverse_transform(batch_preds)
-            feature = scaler.inverse_transform(feature)
 
         # Collect vectors
         batch_preds = batch_preds.tolist()

@@ -16,13 +16,21 @@ writer = SummaryWriter('loss')
 
 def get_feature(model,data, device):
     model.eval()
+    i = 0
     with torch.no_grad():
-        feature,A,y = data
-        if len(y.shape) == 3:
-            y = y.squeeze(1)
-        feature, A, y = feature.to(device), A.to(device), y.to(device)
-        output,feature = model(feature,A)
-    return feature
+        for k in data:
+            feature, A, y = k
+            if len(y.shape) == 3:
+                y = y.squeeze(1)
+            feature, A, y = feature.to(device), A.to(device), y.to(device)
+            output, feature = model(feature, A)
+            if i ==0:
+                features = feature
+            else:
+                features = torch.cat((features,feature))
+            i = i+1
+    return features
+
 
 def get_scores(gcn_scores,xgb_gcn,gcn_morgan,morgan_scores,args):
     names = locals()

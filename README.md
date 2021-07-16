@@ -30,3 +30,4 @@ python gcn_xgb_morgan.py --folder benchmark_molnet/molnet_random_bbbp_c --type c
 cd /home/xgraphboost/gcn_ggnn_xgboost
 python xgb_ggnn.py --folder benchmark_molnet/molnet_random_bbbp_c --type classification
 ```
+

@@ -119,7 +119,6 @@ def evaluate(model: nn.Module,
         mask = mask.to(preds.device)
         targets = targets.to(preds.device)
         class_weights = torch.ones(targets.shape, device=preds.device)
-
         if args.dataset_type == 'multiclass':
             targets = targets.long()
             loss = torch.cat(
